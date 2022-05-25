@@ -1,0 +1,210 @@
+:root {
+  font-size: 62.5%;
+  
+  --ff-primary: var('Poppins', sans-serif);
+  --ff-second:var('Staatliches', cursive);
+  
+  --fs-title:var(4.8rem);
+  --fs-second:var(2rem) 
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #E5E5E5;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 44rem;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #535971;
+}
+
+header {
+  font-family: 'Staatliches';
+  margin-left: 34rem;
+  margin-top: 14rem;  
+}
+
+header h1 {
+  line-height: 6rem;
+  font-size: 4.8rem;
+  margin-bottom: 1.8rem;
+  
+  color: #FFFFFF;
+  font-weight: 400;  
+}
+
+header p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  width: 42rem;
+  
+  line-height: 3rem;
+  color: #FFFFFF;
+}
+
+form {
+
+  position: absolute;
+  width: 75rem;
+  height: fit-content;
+  left: 34rem;
+  top: 32rem;
+  
+  border: 1px solid #E6E6F0;
+  background: #FFFFFF;
+  border-radius: 20px 20px 0px 0px;
+
+  padding: 6.4rem;
+}
+
+.title {
+  font-family: 'Staatliches';
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  color: #535971;
+
+  margin-top: 3rem;
+  margin-bottom: 1.6rem;
+}
+
+.separator {
+  border: 1px solid #E6E6F0;
+  margin-bottom: 3.2rem;
+}
+
+.cfgfield label, .date label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #4E4958;
+  font-weight: 400;
+
+  display: flex;
+  margin-top: 1.6rem;
+}
+
+.cfgfield span, .date span  {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #C1BCCC;
+  margin-left: 0.5rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.firstcol {
+  display: flex;
+  gap: 28rem;
+}
+
+.secondcol {
+  display: flex;
+  gap: 2rem;
+}
+
+.firstcol label, .secondcol label{
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #4E4958;
+  font-weight: 400;
+
+  margin-top: 1.6rem;
+}
+
+.firstcol input, .secondcol input, .boxes input{
+  background: #FAFAFC;
+  margin-top: 0.8rem;
+  height: 5.6rem;
+  
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  width: 100%;
+}
+
+.cfgfield input, .date input, .boxes input{
+  width: 100%;
+  background: #FAFAFC;
+  margin-top: 0.8rem;
+  height: 5.6rem;
+  
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+.date, p {
+  font-family: 'Staatliches';
+  font-size: 2rem;
+  line-height: 3.4rem;
+  color: #535971;
+
+  margin-top: 1rem;
+  
+  display: flex;
+}
+
+.date span {
+  margin-right: 18rem;
+}
+
+.date :nth-child(3) {
+  margin-left: 14rem;
+}
+
+.boxes {
+  display: flex;
+  gap: 2rem;
+}
+
+.boxes :nth-child(1) {
+  width: 50%;
+  display: flex;
+  text-align: center;
+}
+
+.boxes :nth-child(2) {
+  width: 25%;
+  display: flex;
+  text-align: center;
+}
+
+.boxes :nth-child(3) {
+  width: 25%;
+  display: flex;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background: #535971;
+  height: 16rem;
+  width: 75rem;
+  margin: 122.0rem 34rem ;
+  border-radius: 0 0 2rem 2rem;
+}
+
+button {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+  
+  border-radius: 2rem;
+
+  width: 50rem;
+  background: #FF5374;
+  padding: 1rem 2rem;
+  margin: 5rem 6rem;
+}
