@@ -1,16 +1,15 @@
 :root {
-  font-size: 62.5%;
-  
-  --ff-primary: var('Poppins', sans-serif);
-  --ff-second:var('Staatliches', cursive);
-  
-  --fs-title:var(4.8rem);
-  --fs-second:var(2rem) 
+  font-size: 62.5%; 
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   background: #E5E5E5;
+
+  width: 144rem;
+  height: 2rem;
+
+  margin: 0 auto;
 }
 
 body::before {
@@ -25,9 +24,14 @@ body::before {
   background: #535971;
 }
 
+.page {
+  width: 144rem;
+  height: 22rem;
+}
+
 header {
   font-family: 'Staatliches';
-  margin-left: 34rem;
+  margin-left: 36rem;
   margin-top: 14rem;  
 }
 
@@ -50,10 +54,9 @@ header p {
 }
 
 form {
-
-  position: absolute;
+  margin: 0 auto;
   width: 75rem;
-  height: fit-content;
+  height: 116rem;
   left: 34rem;
   top: 32rem;
   
@@ -173,24 +176,18 @@ form {
   text-align: center;
 }
 
-.boxes :nth-child(2) {
-  width: 25%;
-  display: flex;
-  text-align: center;
-}
-
-.boxes :nth-child(3) {
+.boxes :nth-child(2), .boxes :nth-child(3) {
   width: 25%;
   display: flex;
   text-align: center;
 }
 
 footer {
+  margin: 0 auto;
   text-align: center;
   background: #535971;
   height: 16rem;
   width: 75rem;
-  margin: 122.0rem 34rem ;
   border-radius: 0 0 2rem 2rem;
 }
 
@@ -207,4 +204,6 @@ button {
   background: #FF5374;
   padding: 1rem 2rem;
   margin: 5rem 6rem;
+
+  margin-bottom: 15rem;
 }

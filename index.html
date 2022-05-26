@@ -15,100 +15,106 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
 </head>
 
-
 <body>
   <div class="page">
-      <header>
-        <h1>Mentoria</h1>
-        <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
-      </header>
+    <header>
+      <h1>Mentoria</h1>
+      <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+    </header>
   </div>
-  <form id="mentorship">
 
-    <div class="title">
-      <span>INFORMAÇÕES PESSOAIS</span>
-    </div>
-    
-    <div class="separator"></div>
-    
-      <fieldset>
+  <main>
+      <form id="mentorship">
+        <fieldset>
 
-        <div class="firstcol">
-          <label for="firtsname">Nome</label>
-          <label for  ="Lastname">Sobrenome</label>
-        </div>
-        
-        <div class="secondcol">
-          <input type="text" name="name" id="name">
-          <input type="text" name="lastname" id="lastname">
-        </div>
-
-        <div class="cfgfield">
-          <label for="email">Email <span>(digite um email válido)</span></label>
-          <input type="email" name="email" id="email">
-        </div>
-
-        <div class="cfgfield">
-          <label for="password">Senha <span>(mínimo de 6 caracteres)</span></label>
-          <input type="password" name="password" id="password">
-        </div>
-
-        <div class="title">
-          <p>INFORMAÇÕES DO MENTOR</p>
-        </div>
-        
-        <div class="separator"></div>
-
-        <div class="cfgfield">
-          <label for="mentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
-          <input type="text" name="name" id="name">
-        </div>
-
-        <div class="title">
-          <p>SEUS HORÁRIOS DISPONÍVEIS</p>
-        </div>
-        
-        <div class="separator"></div>
-
-        <p>PRIMEIRA MENTORIA</p>
-        <div class="date">
-          <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+          <div class="title">
+            <span>INFORMAÇÕES PESSOAIS</span>
+          </div>
           
-          <label for="begin">Das</label>
-          
-          <label for="end">Até</label>
-
-        </div>
-
-        <div class="boxes">
-          <input type="date" name="date" id="date" >
-
-          <input type="time" name="time" id="time">
-
-          <input type="time" name="time" id="time">
-        </div>
-
-        <p>SEGUNDA MENTORIA</p>
-        <div class="date">
-          <label for="date">Data <span>(DD/MM/AAAA)</span></label>
-          <label for="end">Das</label>
-          <label for="end">Até</label>
-        </div>
-
-        <div class="boxes">
-          <input type="date" name="date" id="date" >
-          <input type="time" name="time" id="time">
-
-          <input type="time" name="time" id="time">
-        </div>
+          <div class="separator"></div>
         
-      </fieldset>
 
-    </form>
-    
-    <footer>
-      <button type="submit">SALVAR</button>
-    </footer>
+          <div class="firstcol">
+            <label for="firtsname">Nome</label>
+            <label for  ="Lastname">Sobrenome</label>
+          </div>
+          
+          <div class="secondcol">
+            <input type="text" name="name" id="name">
+            <input type="text" name="lastname" id="lastname">
+          </div>
 
+          <div class="cfgfield">
+            <label for="email">Email <span>(digite um email válido)</span></label>
+            <input type="email" name="email" id="email">
+          </div>
+
+          <div class="cfgfield">
+            <label for="password">Senha <span>(mínimo de 6 caracteres)</span></label>
+            <input type="password" name="password" id="password">
+          </div>
+
+          <div class="title">
+            <p>INFORMAÇÕES DO MENTOR</p>
+          </div>
+          
+          <div class="separator"></div>
+
+          <div class="cfgfield">
+            <label for="mentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+            <input type="text" name="name" id="name">
+          </div>
+
+          <div class="title">
+            <p>SEUS HORÁRIOS DISPONÍVEIS</p>
+          </div>
+          
+          <div class="separator"></div>
+        
+        </fieldset>
+
+        <fieldset>
+
+          <p>PRIMEIRA MENTORIA</p>
+          <div class="date">
+            <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+            
+            <label for="begin">Das</label>
+            
+            <label for="end">Até</label>
+
+          </div>
+
+          <div class="boxes">
+            <input type="date" name="date" id="date" >
+
+            <input type="time" name="time" id="time">
+
+            <input type="time" name="time" id="time">
+          </div>
+
+          <p>SEGUNDA MENTORIA</p>
+          <div class="date">
+            <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+            <label for="end">Das</label>
+            <label for="end">Até</label>
+          </div>
+
+          <div class="boxes">
+            <input type="date" name="date" id="date" >
+            <input type="time" name="time" id="time">
+
+            <input type="time" name="time" id="time">
+          </div>
+            
+        </fieldset>
+
+      </form>
+
+        <footer>
+          <button form="mentorship" type="submit">SALVAR</button>     
+        </footer>
+
+  </main>
 </body>
 </html>
